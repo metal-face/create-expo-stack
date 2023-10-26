@@ -11,6 +11,7 @@ export default function Page() {
   <% if (props.stylingPackage?.name === "nativewind") { %>
     return (
       <View className={styles.container}>
+        <Stack.Screen options={{ title: "Home" }} />
         <View className={styles.main}>
           <View>
             <Text className={styles.title}>Hello World</Text>
